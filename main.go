@@ -13,6 +13,7 @@ type Algorithm struct {
 
 var algorithms = []Algorithm{
 	{"Bubble Sort", sorting.BubbleSortExample},
+	{"Selection Sort", sorting.SelectionSortExample},
 }
 
 func main() {

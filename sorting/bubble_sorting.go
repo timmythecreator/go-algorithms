@@ -4,7 +4,7 @@ import "fmt"
 
 func BubbleSortExample() {
 	fmt.Print(`
-Bubble sorting:
+	Bubble sorting:
 The goal is to sort by comparing arrays[j] with arrays[j+1],
 and if arrays[j] > arrays[j+1], they're swapping.
 The remaining elements repeat this process until sorting is completed.
