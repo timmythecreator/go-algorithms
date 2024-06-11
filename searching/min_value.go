@@ -24,8 +24,12 @@ Then compare each element with the minIdx element:
 
 func MinimumValue(arr []int) int {
 	n := len(arr)
+	if n == 0 {
+		fmt.Println("Array is empty")
+		return -1
+	}
 	minIdx := 0
-	for i := 0; i < n; i++ {
+	for i := 1; i < n; i++ {
 		if arr[minIdx] > arr[i] {
 			minIdx = i
 		}
