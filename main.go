@@ -1,6 +1,7 @@
 package main
 
 import (
+	"algorithms/searching"
 	"algorithms/sorting"
 	"fmt"
 )
@@ -12,8 +13,10 @@ type Algorithm struct {
 }
 
 var algorithms = []Algorithm{
-	{"Bubble Sort", sorting.BubbleSortExample},
-	{"Selection Sort", sorting.SelectionSortExample},
+	{"Bubble Sort", sorting.BubbleSortSample},
+	{"Selection Sort", sorting.SelectionSortSample},
+	{"Minimum Value", searching.MinimumValueSample},
+	{"Maximum Value", searching.MaximumValueSample},
 }
 
 func main() {

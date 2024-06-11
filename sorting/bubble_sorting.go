@@ -2,7 +2,7 @@ package sorting
 
 import "fmt"
 
-func BubbleSortExample() {
+func BubbleSortSample() {
 	fmt.Print(`
 	Bubble sorting:
 The goal is to sort by comparing arrays[j] with arrays[j+1],
