@@ -17,6 +17,7 @@ var algorithms = []Algorithm{
 	{"Selection Sort", sorting.SelectionSortSample},
 	{"Minimum Value", searching.MinimumValueSample},
 	{"Maximum Value", searching.MaximumValueSample},
+	{"Binary Search", searching.BinarySearchSample},
 }
 
 func main() {
