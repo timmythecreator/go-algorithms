@@ -1,6 +1,7 @@
 package main
 
 import (
+	"algorithms/array"
 	"algorithms/searching"
 	"algorithms/sorting"
 	"fmt"
@@ -18,6 +19,7 @@ var algorithms = []Algorithm{
 	{"Minimum Value", searching.MinimumValueSample},
 	{"Maximum Value", searching.MaximumValueSample},
 	{"Binary Search", searching.BinarySearchSample},
+	{"Reverse Array", array.ReverseArraySample},
 }
 
 func main() {
