@@ -19,6 +19,7 @@ var algorithms = []Algorithm{
 	{"Minimum Value", searching.MinimumValueSample},
 	{"Maximum Value", searching.MaximumValueSample},
 	{"Binary Search", searching.BinarySearchSample},
+	{"Two Sum", searching.TwoSumSample},
 	{"Reverse Array", array.ReverseArraySample},
 }
 
