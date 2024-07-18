@@ -8,8 +8,6 @@ Welcome to my algorithm training project! This project is designed to help enhan
 
 - Installation
 - Usage
-- Contributing
-- License
 
 ## Installation
 
