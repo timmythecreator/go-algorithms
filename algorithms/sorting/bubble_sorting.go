@@ -20,7 +20,7 @@ So this is how it will look after the first pass of sorting:
 	`)
 	BubbleSort(arr)
 	fmt.Println("\nSorted array:", arr)
-	fmt.Println("\nThe complexity of this sorting algorithm is O(n^2)")
+	fmt.Println("\nThe complexity of this sorting algorithm is O(n^2).")
 }
 
 func BubbleSort(arr []int) {
