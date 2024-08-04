@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"go-algorithms/algorithms"
 	"go-algorithms/algorithms/array"
+	datastructures "go-algorithms/algorithms/data_structures"
+	"go-algorithms/algorithms/recursive"
 	"go-algorithms/algorithms/searching"
 	"go-algorithms/algorithms/sorting"
 )
@@ -17,6 +19,10 @@ var algs = []algorithms.Algorithms{
 	{Name: "Binary Search", Run: searching.BinarySearchSample},
 	{Name: "Two Sum", Run: searching.TwoSumSample},
 	{Name: "Reverse Array", Run: array.ReverseArraySample},
+	{Name: "Factorial", Run: recursive.FactorialSample},
+	{Name: "Fibonacci", Run: recursive.FibonacciSample},
+	{Name: "Queue", Run: datastructures.QueueSample},
+	{Name: "Stack", Run: datastructures.StackSample},
 }
 
 func main() {
